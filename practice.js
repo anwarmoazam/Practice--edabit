@@ -24,9 +24,11 @@ function sevenBoom(arr){
 }
 
 
-console.log(sevenBoom([1, 2, 3, 4, 5, 6, 7]));
-console.log(sevenBoom([8, 6, 33, 100]));
-console.log(sevenBoom([2, 55, 60, 97, 86]));
+// console.log(sevenBoom([2, 3, 4, 5, 6]));
+// console.log(sevenBoom([8, 6, 33, 10541541540]));
+// console.log(sevenBoom([2, 55, 60, 97, 86]));
+// console.log(sevenBoom([2, 55, 7, 60, 9, 758]));
+
 
 
 // Create a function that determines whether a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".
