@@ -14,6 +14,7 @@ function sevenBoom(arr){
     for(let i=0;i<arr.length;i++){
         if(arr[i].toString().length>1){
             let subArr = [...arr[i].toString()];
+            console.log(subArr);
             if(subArr.includes('7',0)){
                 return 'Boom!';
             }
@@ -24,8 +25,8 @@ function sevenBoom(arr){
 }
 
 
-// console.log(sevenBoom([2, 3, 4, 5, 6]));
-// console.log(sevenBoom([8, 6, 33, 10541541540]));
+// console.log(sevenBoom([2, 3, 4, 5, 6857]));
+// console.log(sevenBoom([8, 6, 33, 105415415407]));
 // console.log(sevenBoom([2, 55, 60, 97, 86]));
 // console.log(sevenBoom([2, 55, 7, 60, 9, 758]));
 
