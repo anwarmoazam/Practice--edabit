@@ -119,4 +119,6 @@ function allTruthy1(arr) {
 console.log(allTruthy1([true, true, true]));
 console.log(allTruthy1([true, true, false]));
 console.log(allTruthy1([false, true, true, true]));
+console.log(allTruthy1([false, false,false,false,false,false]));
+
 
